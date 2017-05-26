@@ -1,37 +1,36 @@
-*{
-  font-family: Helvetica;
+* {
+  font-family: Verdana;
+  text-align: center;
+  align-items: center;
+}
+
+body{
+  background-color: black;
 }
 
 h1{
-  font-size: 100px;
-  font-weight: bold;
-  text-align: center;
-  color: khaki;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
-}
-
-#brush{
-  font-size: 32px;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 50px;
   color: white;
-  background-color: mediumspringgreen;
 }
 
-#frames{
-  font-size: 32px;
-  font-weight: bold;
+h2{
   color: white;
-  background-color: lightcoral;
+  font-weight: 300;
+  font-size: 42px;
 }
 
-#paint{
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
-  background-color: skyblue;
+h3{
+  color: grey;
+  font-size: 21px;
 }
 
-.price{
-  font-weight: bold;
-  color: blue;
+h4{
+  text-align: right;
+  color: grey;
+}
+
+.link{
+  color: aquamarine;
+  font-size: 16px;
 }
