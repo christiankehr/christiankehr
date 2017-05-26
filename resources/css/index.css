@@ -1,37 +1,55 @@
 *{
+  text-align: center;
   font-family: Helvetica;
 }
 
+#header{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  image-orientation: left;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.banner{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
 h1{
-  font-size: 100px;
-  font-weight: bold;
-  text-align: center;
-  color: khaki;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
-}
-
-#brush{
-  font-size: 32px;
+  font-size: 70px;
   font-weight: bold;
   color: white;
-  background-color: mediumspringgreen;
 }
 
-#frames{
+a{
+  color: white;
+  font-size: 18px;
+}
+
+.footer{
+  text-align: left;
+  background-color: grey;
+  font-size: 11px;
+  color: white;
+}
+
+footer-nav{
+  color:white;
+}
+
+h2{
   font-size: 32px;
   font-weight: bold;
-  color: white;
-  background-color: lightcoral;
 }
 
-#paint{
-  font-size: 32px;
+h3{
+  flow-from: 23px;
   font-weight: bold;
-  color: white;
-  background-color: skyblue;
 }
 
-.price{
-  font-weight: bold;
-  color: blue;
+h4{
+  font-size: 14px;
 }
